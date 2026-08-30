@@ -1,0 +1,6 @@
+Roma, 28
+Milano, 24
+Roma, 30
+Napoli, 32
+Milano, 22
+Roma, 26

@@ -19,7 +19,7 @@ function jobMap(V_In_Map){
     return V_In_Map.map((item, rowIndex)=>{
         parts = item.split(",");
 
-        results =parts.map((valore, colIndex) => {
+        results = parts.map((valore, colIndex) => {
             key = parseInt(valore);
             value = String(rowIndex + "-" + colIndex );
             return keyVal(key, value);

@@ -43,6 +43,8 @@ function jobReduce(K_In_Map_V_In_Reduce){
         return keyVal(key, totale)
     })
 
+    console.log(results);
+
     return results.filter((riga)=>{
         var valore = parseInt(riga.split(S[0])[1]);   // <-- filtra sulla RIGA (keyVal), non su un numero sciolto
         return valore > 100;
